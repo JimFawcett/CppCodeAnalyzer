@@ -1,5 +1,9 @@
 ReadMe.txt
 
+https://JimFawcett.github.io/CppCodeAnalyzer.html
+
+Static type-based code analysus using rule-based parser
+
 Inorder to understand how Parser works, see the ParserBlog: 
 http://ecs.syr.edu/faculty/fawcett/handouts/webpages/BlogParser.htm
 
