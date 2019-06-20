@@ -1,0 +1,16 @@
+C:\su\Repository\Cpp\CodeAnalyzer\Comm
+true
+true
+true
+false
+FolderSelection
+false
+true
+true
+false
+true
+false
+true
+false
+false
+true

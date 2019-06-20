@@ -1,0 +1,278 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Thu Jun 20 11:49:52 2019
+     Path: "C:\su\Repository\Cpp\CodeAnalyzer\Comm"
+     Args: *.h, *.cpp, *.cs, /s, /v, /m, /r, /f, /p
+                                                                               
+       111 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Cpp11-BlockingQueue\Cpp11-BlockingQueue.h
+        83 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Cpp11-BlockingQueue\Cpp11-BlockingQueue.cpp
+       111 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Logger\Cpp11-BlockingQueue.h
+        83 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Logger\Cpp11-BlockingQueue.cpp
+        89 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Logger\Logger.h
+       125 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Logger\Logger.cpp
+       116 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Message\Message.h
+       279 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Message\Message.cpp
+        95 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\MsgPassingComm\Comm.h
+       518 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\MsgPassingComm\Comm.cpp
+       301 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Sockets\Sockets.h
+       840 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Sockets\Sockets.cpp
+       114 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Utilities\Utilities.h
+       184 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\Utilities\Utilities.cpp
+        48 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\WindowsHelpers\WindowsHelpers.h
+        85 : C:\su\Repository\Cpp\CodeAnalyzer\Comm\WindowsHelpers\WindowsHelpers.cpp
+
+      Total line count = 3182
+
+
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     284
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                    Comm.h   namespace            MsgPassingCommunication      40      56      28
+                    Comm.h       class                           Receiver      45      13       6
+                    Comm.h       class                             Sender      65      16      14
+                    Comm.h       class                               Comm      83      13       7
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Comm.cpp    function                           Receiver      22       3       1
+                  Comm.cpp    function                              queue      28       3       1
+                  Comm.cpp    function                              start      35       3       1
+                  Comm.cpp    function                               stop      41       3       1
+                  Comm.cpp    function                         getMessage      47       4       1
+                  Comm.cpp    function                             Sender      54       3       1
+                  Comm.cpp    function                            ~Sender      60       4       1
+                  Comm.cpp    function                              start      67      35       7
+                  Comm.cpp    function                               void      68      30       6
+                  Comm.cpp    function                               stop     105       7       1
+                  Comm.cpp    function                            connect     115       4       1
+                  Comm.cpp    function                        postMessage     122       3       1
+                  Comm.cpp    function                           sendFile     130       3       1
+                  Comm.cpp    function                               Comm     199       2       1
+                  Comm.cpp    function                              start     203      15       1
+                  Comm.cpp    function                               stop     220       4       1
+                  Comm.cpp    function                        postMessage     226       3       1
+                  Comm.cpp    function                         getMessage     231       3       1
+                  Comm.cpp    function                               name     236       3       1
+                  Comm.cpp       class                      ClientHandler     139      60       9
+                  Comm.cpp    function                      ClientHandler     144       3       1
+                  Comm.cpp    function                     ~ClientHandler     149       4       1
+                  Comm.cpp    function                           setQueue     156       3       1
+                  Comm.cpp    function                            readMsg     162      11       2
+                  Comm.cpp    function                         operator()     176      19       3
+                  Comm.cpp    function                       DemoSndrRcvr     248      79       1
+                  Comm.cpp    function                      DemoCommClass     334      68       1
+                  Comm.cpp    function                    ThreadProcClnt1     409      23       2
+                  Comm.cpp    function                    ThreadProcClnt2     435      16       2
+                  Comm.cpp    function                   DemoClientServer     457      37       3
+                  Comm.cpp    function                               main     498      20       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+     Cpp11-BlockingQueue.h       class                      BlockingQueue      51      17      12
+     Cpp11-BlockingQueue.h    function                      BlockingQueue      52       2       1
+     Cpp11-BlockingQueue.h    function                      BlockingQueue      72       7       1
+     Cpp11-BlockingQueue.h    function                          operator=      83       9       1
+     Cpp11-BlockingQueue.h    function                                deQ      96      26       3
+     Cpp11-BlockingQueue.h    function                                enQ     126       7       2
+     Cpp11-BlockingQueue.h    function                              front     137       6       1
+     Cpp11-BlockingQueue.h    function                              clear     147       5       1
+     Cpp11-BlockingQueue.h    function                               size     156       4       1
+     Cpp11-BlockingQueue.h       class                      BlockingQueue      46      13      10
+     Cpp11-BlockingQueue.h    function                      BlockingQueue      47       2       1
+     Cpp11-BlockingQueue.h    function                      BlockingQueue      62       3       1
+     Cpp11-BlockingQueue.h    function                          operator=      68       6       1
+     Cpp11-BlockingQueue.h    function                                deQ      77      16       3
+     Cpp11-BlockingQueue.h    function                                enQ      96       7       2
+     Cpp11-BlockingQueue.h    function                               size     106       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+   Cpp11-BlockingQueue.cpp    function                               test      21      12       3
+   Cpp11-BlockingQueue.cpp    function                               main      35      52       3
+   Cpp11-BlockingQueue.cpp    function                               test      21      12       3
+   Cpp11-BlockingQueue.cpp    function                               main      35      47       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Logger.h       class                             Logger      45      18      14
+                  Logger.h    function                             Logger      46       2       1
+                  Logger.h       class                       StaticLogger      66      14       8
+                  Logger.h    function                             attach      67       2       1
+                  Logger.h    function                              start      68       2       1
+                  Logger.h    function                               stop      69       2       1
+                  Logger.h    function                              write      70       2       1
+                  Logger.h    function                              flush      71       2       1
+                  Logger.h    function                              title      72       2       1
+                  Logger.h    function                           instance      73       2       1
+                  Logger.h      struct                           Cosmetic      85       3       2
+                  Logger.h    function                          ~Cosmetic      85       2       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Logger.cpp    function                              write      22       4       1
+                Logger.cpp    function                              flush      29       8       2
+                Logger.cpp    function                              title      38       4       1
+                Logger.cpp    function                             attach      44       4       1
+                Logger.cpp    function                              start      51      19       4
+                Logger.cpp    function                               void      55      11       3
+                Logger.cpp    function                               stop      73      11       2
+                Logger.cpp    function                            ~Logger      87       3       1
+                Logger.cpp    function                               main      98      26       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Message.h   namespace            MsgPassingCommunication      33      84      40
+                 Message.h      struct                           EndPoint      38       9       4
+              public data: Address address ; 
+              public data: Port port ; 
+                 Message.h    function                           EndPoint      47       2       1
+                 Message.h    function                           toString      51       3       1
+                 Message.h    function                         fromString      56      10       1
+                 Message.h       class                            Message      72      45      35
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Message.cpp    function                            Message      14       2       1
+               Message.cpp    function                            Message      20       4       1
+               Message.cpp    function                         attributes      27       3       1
+               Message.cpp    function                          attribute      33       3       1
+               Message.cpp    function                              clear      39       3       1
+               Message.cpp    function                               keys      45       9       2
+               Message.cpp    function                        containsKey      57       5       1
+               Message.cpp    function                                 to      65       7       2
+               Message.cpp    function                                 to      75       3       1
+               Message.cpp    function                               from      81       7       2
+               Message.cpp    function                               from      91       3       1
+               Message.cpp    function                               name      97       7       2
+               Message.cpp    function                               name     107       3       1
+               Message.cpp    function                            command     113       7       2
+               Message.cpp    function                            command     123       3       1
+               Message.cpp    function                               file     129       7       2
+               Message.cpp    function                               file     139       3       1
+               Message.cpp    function                      contentLength     145       8       2
+               Message.cpp    function                      contentLength     156       3       1
+               Message.cpp    function                           toString     162       8       2
+               Message.cpp    function                         attribName     173       6       1
+               Message.cpp    function                        attribValue     182       6       1
+               Message.cpp    function                         fromString     191      10       2
+               Message.cpp    function                               show     208      10       2
+               Message.cpp    function                               main     223      56       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Sockets.h   namespace                            Sockets     141     159      70
+                 Sockets.h       class                       SocketSystem     146       8       4
+                 Sockets.h       class                             Socket     161      40      30
+                 Sockets.h    function                   operator::SOCKET     172       2       1
+                 Sockets.h    function                         validState     191       2       1
+                 Sockets.h       class                    SocketConnecter     207      12      13
+                 Sockets.h       class                     SocketListener     226      21      22
+                 Sockets.h    function                              start     257      42       6
+                 Sockets.h    function                       ListenThread     271      24       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Sockets.cpp    function                       SocketSystem      35       6       2
+               Sockets.cpp    function                      ~SocketSystem      44       4       1
+               Sockets.cpp    function                             Socket      55       6       1
+               Sockets.cpp    function                             Socket      67       7       1
+               Sockets.cpp    function                             Socket      77       9       1
+               Sockets.cpp    function                          operator=      89      10       1
+               Sockets.cpp    function                              ipVer     106       3       1
+               Sockets.cpp    function                              close     112       4       1
+               Sockets.cpp    function                       shutDownSend     119       6       1
+               Sockets.cpp    function                       shutDownRecv     129       6       1
+               Sockets.cpp    function                           shutDown     138       7       1
+               Sockets.cpp    function                            ~Socket     147       4       1
+               Sockets.cpp    function                               send     157      13       2
+               Sockets.cpp    function                               recv     176      13       2
+               Sockets.cpp    function                         sendString     195      14       2
+               Sockets.cpp    function                         recvString     220      23       4
+               Sockets.cpp    function                   removeTerminator     246       3       1
+               Sockets.cpp    function                         sendStream     254       3       1
+               Sockets.cpp    function                         recvStream     262       3       1
+               Sockets.cpp    function                       bytesWaiting     268       5       1
+               Sockets.cpp    function                        waitForData     276      12       2
+               Sockets.cpp    function                    SocketConnecter     294       3       1
+               Sockets.cpp    function                    SocketConnecter     300       8       1
+               Sockets.cpp    function                          operator=     311      10       1
+               Sockets.cpp    function                   ~SocketConnecter     324       3       1
+               Sockets.cpp    function                            connect     330      63       8
+               Sockets.cpp    function                     SocketListener     399      11       1
+               Sockets.cpp    function                     SocketListener     413       9       1
+               Sockets.cpp    function                          operator=     425      11       1
+               Sockets.cpp    function                    ~SocketListener     439       3       1
+               Sockets.cpp    function                               bind     445      47       6
+               Sockets.cpp    function                             listen     495      12       2
+               Sockets.cpp    function                             accept     510      14       2
+               Sockets.cpp    function                               stop     527       4       1
+               Sockets.cpp       class                      ClientHandler     543       6      20
+               Sockets.cpp    function                         operator()     559      46       6
+               Sockets.cpp    function                 testStringHandling     611      33       6
+               Sockets.cpp    function                 testBufferHandling     650      46       7
+               Sockets.cpp    function                        clearBuffer     553       4       1
+               Sockets.cpp    function           clientTestStringHandling     700      31       5
+               Sockets.cpp    function           clientTestBufferHandling     734      61       8
+               Sockets.cpp    function                               main     798      41       4
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Utilities.h   namespace                          Utilities      44      70      16
+               Utilities.h       class                       StringHelper      53       8      11
+               Utilities.h    function                    DisplayLocation      76       9       1
+               Utilities.h       class                          Converter      91       5       3
+               Utilities.h    function                           toString      99       5       1
+               Utilities.h    function                            toValue     107       6       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Utilities.cpp    function                              title      31       4       1
+             Utilities.cpp    function                              Title      38       4       1
+             Utilities.cpp    function                              split      47      22       4
+             Utilities.cpp    function                               trim      72      22       3
+             Utilities.cpp    function            addHeaderAndFooterLines      97       4       1
+             Utilities.cpp    function                               void      22       1       1
+             Utilities.cpp    function                               void      25       1       1
+             Utilities.cpp    function                 ToDecAddressString     104       5       1
+             Utilities.cpp    function                 ToHexAddressString     112       5       1
+             Utilities.cpp    function                            putline     120       3       1
+             Utilities.cpp    function                               main     128      56       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          WindowsHelpers.h   namespace                     WindowsHelpers      42       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        WindowsHelpers.cpp    function                    wstringToString      26       7       1
+        WindowsHelpers.cpp    function                 stringToWideString      35       7       1
+        WindowsHelpers.cpp    function                         GetLastMsg      45      32       1
+        WindowsHelpers.cpp    function                               main      81       3       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Comm.cpp    function                       DemoSndrRcvr     248      79       1
+                  Comm.cpp    function                      DemoCommClass     334      68       1
+   Cpp11-BlockingQueue.cpp    function                               main      35      52       3
+               Message.cpp    function                               main     223      56       1
+               Sockets.cpp    function                            connect     330      63       8
+               Sockets.cpp    function           clientTestBufferHandling     734      61       8
+             Utilities.cpp    function                               main     128      56       2
+
+              public data: Message.h : 41 - struct EndPoint
+                Address address ; 
+              public data: Message.h : 42 - struct EndPoint
+                Port port ; 
+
+
+    searched    44 dirs
+   processed    16 files

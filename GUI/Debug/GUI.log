@@ -1,0 +1,5 @@
+﻿  Window.cpp
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  Window.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Window.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GUI.vcxproj -> C:\su\Repository\Cpp\CodeAnalyzer\Debug\VisualCodeAnalyzer.exe

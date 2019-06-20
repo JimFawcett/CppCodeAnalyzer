@@ -1,0 +1,15 @@
+﻿  AbstrSynTree.cpp
+  FileMgr.cpp
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  ScopeStack.cpp
+  SemiExp.cpp
+  Tokenizer.cpp
+  Utilities.cpp
+  Executive.cpp
+  Generating Code...
+  Executive.vcxproj -> C:\su\Repository\Cpp\CodeAnalyzer\Debug\CodeAnalyzer.exe
